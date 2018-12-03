@@ -2,7 +2,7 @@
 
 Real estate house pricing is a well known phenomenon in current scenarios. Based on the area where the house is, decoration, construction the price always varies. And these feature list is pretty big what actually effects the price. In the end when a customers budget and expectation matches with the price of the house then a deal takes place. But it is really hard to consider all these ever changing features. Machine learning can help to tackle this problem efficiently. Today we shall try to build up a model. A model is a well defined programmable agent, whose main goal is to improve its performance based on the available features. In our case the performance that we want to improve is the house price and the features are, crime rate, zones , industrial, nitric oxides concentration, average number of rooms per dwelling, age, distance to major 5 working ground, distance to high way , TAX, pupil teacher ratio, lower status of population. If we represent all this in a table then it looks something like this,
 
-!![](img/table.png)
+![](img/table.png)
 
 As we can see all the feature values are converted to numerical values. More over the house price that we are going to estimate/ predict is also a numerical value like the price can be $x and $x can be any decimal value. To simplify things lets consider all the features as y. Based on the features y the price $x will vary. Simply we want to figure out for how much of change to y , x will vary. We want to find the relation between them. And in this particular case this relation is our model that will take the features y and map the output to $x price. 
 
